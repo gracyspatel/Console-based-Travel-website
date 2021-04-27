@@ -1,0 +1,196 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+}
+
+#navigation {
+
+    background-color: transparent;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    font: "Times New Roman";
+}
+
+#navigation ul{
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    float: right;
+}
+
+#navigation li{
+    display: inline;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+#navigation a{
+
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    color: #424242;
+}
+
+#navigation a:hover{
+
+    color:#F5F5F5;
+    background-color: #424242;
+}
+
+h1 {
+
+    text-align: center;
+    color: #424242;
+    font-size: 50px;
+}
+
+p{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold; 
+    color: #424242;
+}
+
+.header main1{
+    padding-left: 100px;
+}
+.main1, .main2, .main3, .main4{
+
+    height: 400px;
+    width: 1300px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#head{
+    color: #424242;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: #D7CCC8;
+}
+h1{
+    color: white;
+    opacity: 0.7;
+}
+
+#australia{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("International/Australia.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:#D7CCC8;
+}
+
+#canada{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 42px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("International/Canada.jpg");
+    background-size: cover;
+}
+
+#singapore{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("International/Singapore.jpg");
+    background-size: cover;
+}
+
+#egypt{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("International/Egypt.jpg");
+    background-size: cover;
+}
+
+#germany{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 42px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("International/Germany.jpg");
+    background-size: cover;
+}
+
+#hongkong{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("International/Hongkong.jpg");
+    background-size: cover;
+}
+
+#santorini{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("International/santorini.jpg");
+    background-size: cover;
+}
+
+#switzerland{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 42px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("International/switzerland.jpg");
+    background-size: cover;
+}
+
+#veitnam{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("International/Veitnam.jpg");
+    background-size: cover;
+}
+
+#italy{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("International/Italy.jpg");
+    background-size: cover;
+}
+
+#newZealand{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 42px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("International/NewZealand.jpg");
+    background-size: cover;
+}
+
+#russia{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("International/Russia.jpg");
+    background-size: cover;
+}

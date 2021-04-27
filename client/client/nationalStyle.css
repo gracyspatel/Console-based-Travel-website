@@ -1,0 +1,193 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: helvetica;
+}
+
+.header{
+    background-color: #D7CCC8;
+}
+
+#navigation {
+
+    background-color: transparent;
+    height: 35px;
+    font-size: 25px;
+    font-weight: bold;
+    font: "Times New Roman";
+}
+
+#navigation ul{
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+    float: right;
+}
+
+#navigation li{
+    display: inline;
+    padding: 15px;
+    vertical-align: middle;
+}
+
+#navigation a{
+
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    color: #424242;
+}
+
+#navigation a:hover{
+
+    color:#F5F5F5;
+    background-color: #424242;
+}
+
+h1 {
+
+    text-align: center;
+    color: lightgray;
+    opacity: 0.7;
+    font-size: 50px;
+}
+
+#head {
+    color: #424242;
+    text-align: center;
+    font-size: 50px;
+}
+
+p{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold; 
+    color: #424242;
+}
+
+.header main1{
+    padding-left: 100px;
+}
+.main1, .main2, .main3, .main4{
+
+    height: 400px;
+    width: 1300px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gujarat{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("National/gujarat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#rajasthan{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 42px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("National/Rajasthan.jpg");
+    background-size: cover;
+}
+
+#punjab{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("National/Amritsar.jpg");
+    background-size: cover;
+}
+
+#kerela{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("National/Kerela.jpg");
+    background-size: cover;
+}
+
+#karnataka{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 42px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("National/Karnataka.jpg");
+    background-size: cover;
+}
+
+#tamilNadu{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("National/TamilNadu.jpg");
+    background-size: cover;
+}
+
+#jammuKashmir{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("National/JammuKashmir.jpg");
+    background-size: cover;
+}
+
+#darjeeling{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 42px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("National/Darjeeling.jpg");
+    background-size: cover;
+}
+
+#sikkim{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("National/Sikkim.jpg");
+    background-size: cover;
+}
+
+#delhi{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url("National/Delhi.jpg");
+    background-size: cover;
+}
+
+#lehLadakh{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 42px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("National/LehLadakh.jpg");
+    background-size: cover;
+}
+
+#AdmanNicobar{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    float: right;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)) , url("National/Andaman.jpg");
+    background-size: cover;
+}

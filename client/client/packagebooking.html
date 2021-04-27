@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Package Booking</title>
+	<link rel="stylesheet" type="text/css" href="packagebooking.css">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container"><!--container-->
+		
+		<form class="form-group" action="packagebooking.php" method="POST">
+			<br>
+			<h1 class="text-center">Package Booking Form</h1>
+			<br>
+			<div id="form"><!--form-->
+				<h3 class="text-white">Booking Details </h3>
+				<div id="input"><!--input-->
+					<input type="text" id="input-group" placeholder="From" name="FromD" required><br>
+					<input type="text" id="input-group" placeholder="To" name="ToD" required>
+				</div>
+				<br>
+				<div class="input">
+					<label>Departure Date</label>
+					<input type="date" id="input-group" placeholder="Departure Date">
+				</div><br>
+				<div class="input">
+					<label>Return Date</label>
+					<input type="date" id="input-group" placeholder="Return Date    ">
+				</div>
+				<div id="input">
+					<select id="input-group" style="background: black;">
+						<option value="">Preferred Airline</option>
+						<option value="">Kingfisher</option>
+						<option value="">AirIndia</option>
+						<option value="">JetAirways</option>
+					</select>
+					<br>
+					<select id="input-group" style="background: black;">
+						<option value="">Preferred Seating</option>
+						<option value="">Business Class</option>
+						<option value="">Economy Class</option>
+						<option value="">First Class</option>
+					</select>
+				</div><!--input-->
+
+				<div id="input2"><!--input2-->
+					<input type="number" id="input-group" placeholder="Adult"><br>
+					<input type="number" id="input-group" placeholder="Children(0-11 years)">
+					<!--<input type="number" id="input-group" placeholder="Infant(Under 2 years)">-->
+				</div><!--input2-->
+
+				<!--<div id="input3">input
+					
+					<span id="input-group" class="text-primary">Select Your Fare</span>
+
+					<input type="radio" id="input-group" name="r">
+					<label class="text-white" for="input-group">One Way</label>
+					
+					<input type="radio" id="input-group" name="r">
+					<label class="text-white" for="input-group">Round Trip</label>
+				</div>input3-->
+
+				<!--<div id="input4">
+					<input type="text" id="input-group" placeholder="Return Date">
+					<input type="text" id="input-group" placeholder="Return Time">
+					<input type="text" id="input-group1" placeholder="Any Message">
+				</div>-->
+
+				
+				<button type="submit" class="btn btn-warning"><a href="pay2.html"> Proceed To Pay</button></a>
+				<button type="reset" class="btn btn-warning">Reset Form</button>
+			</div><!--form-->
+
+		</form><!--container-->
+	</div>
+</body>
+</html>
